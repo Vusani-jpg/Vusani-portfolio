@@ -67,7 +67,7 @@ export default function Contact() {
 					message: result.error || 'Failed to send message. Please try again.'
 				});
 			}
-		} catch (_) {
+		} catch  {
 			setSubmitStatus({
 				type: 'error',
 				message: 'Network error. Please check your connection and try again.'
