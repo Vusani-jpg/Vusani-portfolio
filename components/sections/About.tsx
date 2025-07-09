@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Code, Briefcase, GraduationCap, MapPin, Sparkles, Target, Users, Zap } from "lucide-react";
+import { Code, Briefcase, GraduationCap, MapPin, Sparkles, Users, Zap } from "lucide-react";
 import SectionHeading from "../ui/section-heading";
 import { cn } from "@/lib/utils";
 
@@ -65,7 +65,7 @@ export default function About() {
 					mounted && "opacity-100 translate-x-0",
 				)}
 			>
-				{/* Main content section */}
+
 				<div className="grid lg:grid-cols-2 gap-8 items-center">
 					{/* Profile Image */}
 					<div className="relative group">
@@ -80,7 +80,7 @@ export default function About() {
 						/>
 					</div>
 
-					{/* About text */}
+
 					<div className="space-y-6">
 						<div className="bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl border border-gray-800/50 shadow-xl hover:shadow-2xl transition-all duration-500 hover:border-primary/30">
 							<h3 className="text-xl font-semibold text-gray-100 mb-4 flex items-center gap-2">
@@ -88,14 +88,13 @@ export default function About() {
 								Passionate Software Engineer
 							</h3>
 							<p className="text-gray-300 leading-relaxed text-lg">
-								I'm a dedicated software engineer with a unique blend of mechanical engineering background and modern software development expertise. My passion lies in creating innovative, user-centric solutions that bridge the gap between complex technical challenges and elegant user experiences.
+								I&apos;m a dedicated software engineer with a unique blend of mechanical engineering background and modern software development expertise. My passion lies in creating innovative, user-centric solutions that bridge the gap between complex technical challenges and elegant user experiences.
 							</p>
 							<p className="text-gray-300 leading-relaxed mt-4">
-								With a strong foundation in both analytical thinking and creative problem-solving, I thrive in collaborative environments where I can contribute to meaningful projects that make a real impact. I'm constantly exploring emerging technologies, particularly in AI and machine learning, to stay at the forefront of innovation.
+								With a strong foundation in both analytical thinking and creative problem-solving, I thrive in collaborative environments where I can contribute to meaningful projects that make a real impact. I&apos;m constantly exploring emerging technologies, particularly in AI and machine learning, to stay at the forefront of innovation.
 							</p>
 						</div>
 
-						{/* Skills visualization */}
 						<div className="grid grid-cols-2 gap-4">
 							{skills.map((skill) => (
 								<div key={skill.name} className="bg-gray-900/60 backdrop-blur-sm p-4 rounded-xl border border-gray-800/30 hover:border-primary/50 transition-all duration-300">
@@ -115,7 +114,6 @@ export default function About() {
 					</div>
 				</div>
 
-				{/* Quick Facts Grid */}
 				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
 					{quickFacts.map((fact) => (
 						<div
