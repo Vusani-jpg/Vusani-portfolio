@@ -35,7 +35,7 @@ export default function Hero() {
 							View Skills
 						</Link>
 						<a
-							href="/files/My CV.pdf"
+							href="./files/My CV.pdf"
 							download
 							className="inline-flex items-center gap-2 bg-gray-800 text-white border border-primary font-medium px-6 py-3 rounded-full hover:primary
 							 hover:shadow-[0_0_15px_rgba()] transition-all duration-200"
@@ -46,7 +46,7 @@ export default function Hero() {
 								aria-hidden
 								color="white"
 								
-								src="/file.svg"
+								src="./file.svg"
 								alt="File icon"
 								width={16}
 								height={16}
@@ -56,8 +56,21 @@ export default function Hero() {
 				</div>
 			</div>
 
-			<div className="absolute bottom-30 left-1/2 transform -translate-x-1/2 animate-bounce ">
-				<Link href="#about" aria-label="Scroll to About section ">
+			<div className="absolute bottom-30 left-1/2 transform -translate-x-1/2 animate-bounce trans">
+				<Link 
+					href="#about" 
+					aria-label="Scroll to About section"
+					onClick={(e) => {
+						e.preventDefault();
+						const aboutSection = document.getElementById('about');
+						if (aboutSection) {
+							aboutSection.scrollIntoView({ 
+								behavior: 'smooth',
+								block: 'start'
+							});
+						}
+					}}
+				>
 					<ArrowDown className="justify-center items-center h-15 w-15 " />
 				</Link>
 			</div>

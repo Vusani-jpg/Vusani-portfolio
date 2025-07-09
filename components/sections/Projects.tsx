@@ -21,16 +21,16 @@ export default function Projects() {
 			githubUrl: "#",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
-			image: "/images/Profile.png",
+			image: "/images/Profile.jpg",
 		},
 		{
 			title: "Tic Tac Toe Game",
-			description: "A full-stack task management application with user authentication, CRUD operations, and real-time updates.",
-			technologies: ["React", "Node.js", "MongoDB", "Express"],
+			description: "A simple Tic Tac Toe game built with HTML, CSS, and JavaScript. Features a responsive design and a clean interface.",
+			technologies: ["HTML", "JAVASCRIPT","React", "Next.js"],
 			githubUrl: "#",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
-			image: "/images/Ghost.jpg",
+			image: "/images/TIC-TAC.png",
 		},
 		// {
 		// 	title: "Weather Dashboard",
@@ -50,7 +50,7 @@ export default function Projects() {
 				subtitle="Some of my recent work and personal projects"
 			/>
 
-			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+			<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
 				{projects.map((project, index) => (
 					<div
 						key={index}
@@ -66,7 +66,7 @@ export default function Projects() {
 						}}
 					>
 						{/* Project Image Preview */}
-						<div className="relative h-48 overflow-hidden">
+						<div className="relative h-68 overflow-hidden">
 							<Image
 								src={project.image}
 								alt={`${project.title} preview`}

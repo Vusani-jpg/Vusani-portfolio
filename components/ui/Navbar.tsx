@@ -7,7 +7,7 @@ const navItems = [
 	{ name: "About", href: "#about" },
 	{ name: "Skills", href: "#skills" },
 	{ name: "Projects", href: "#projects" },
-	// { name: "Contact", href: "#contact" },
+	{ name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -33,17 +33,23 @@ export default function Navbar() {
 					<Link
 						href="/"
 						onClick={(e) => handleNavClick(e, "#home")}
-						className="text-white font-bold bg-primary border-b-primary rounded-4xl p-2 hover:shadow-primary hover:scale-110 hover:shadow-[0_0_15px_rgba()] transition-opacity duration-400"
+						className="flex items-center space-x-3 text-white font-bold hover:scale-110 transition-opacity duration-400"
 					>
-						VM
+						<div className="bg-primary border-b-primary rounded-4xl p-2 hover:shadow-primary hover:shadow-[0_0_15px_rgba()]">
+							VM
+						</div>
+						<span className="text-primary text-2xl">Vusani Matsigila</span>
 					</Link>
+					
 					<div className="hidden md:flex space-x-8 text-xl">
 						{navItems.map((item) => (
 							<Link
 								key={item.name}
 								href={item.href}
 								onClick={(e) => handleNavClick(e, item.href)}
-								className="hover:text-primary transition-colors duration-300 hover:underline hover:underline-offset-5"
+								className={`hover:text-primary transition-colors duration-300 hover:underline hover:underline-offset-5 ${
+									item.name === "Home" ? "text-primary hover:text-white  underline underline-offset-5" : ""
+								}`}
 							>
 								{item.name}
 							</Link>
