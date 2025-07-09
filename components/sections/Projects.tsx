@@ -21,7 +21,7 @@ export default function Projects() {
 			githubUrl: "#",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
-			image: "/images/Profile.jpg",
+			image: "./images/Profile.jpg",
 		},
 		{
 			title: "Tic Tac Toe Game",
@@ -30,7 +30,7 @@ export default function Projects() {
 			githubUrl: "#",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
-			image: "/images/TIC-TAC.png",
+			image: "./images/TIC-TAC.png",
 		},
 		// {
 		// 	title: "Weather Dashboard",
