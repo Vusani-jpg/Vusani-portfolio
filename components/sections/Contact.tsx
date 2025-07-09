@@ -55,10 +55,10 @@ export default function Contact() {
 
 			const result = await response.json();
 
-			if (response.ok) {
+			if (response.ok && result.success) {
 				setSubmitStatus({
 					type: 'success',
-					message: 'Message sent successfully! I\'ll get back to you soon.'
+					message: result.message || 'Message sent successfully! I\'ll get back to you soon.'
 				});
 				setFormData({ name: "", email: "", message: "" });
 			} else {

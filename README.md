@@ -20,6 +20,26 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Environment Variables
+
+To enable the contact form functionality, create a `.env.local` file in the root directory with the following variables:
+
+```bash
+# Email Configuration (Required)
+RESEND_API_KEY=your_resend_api_key_here
+RECIPIENT_EMAIL=your-email@example.com
+
+# Optional: Customize the from email (must be a verified domain in Resend)
+RESEND_FROM_EMAIL=Portfolio Contact <your-verified-domain@example.com>
+```
+
+### Setting up Resend:
+
+1. Sign up at [resend.com](https://resend.com)
+2. Get your API key from the dashboard
+3. Verify your domain (optional but recommended)
+4. Add the environment variables to your deployment platform
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
