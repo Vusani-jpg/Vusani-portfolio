@@ -12,7 +12,7 @@ interface ContactFormData {
 interface ApiResponse {
   success: boolean;
   message: string;
-  data?: any;
+  data?: { id?: string } | null;
   error?: string;
 }
 
