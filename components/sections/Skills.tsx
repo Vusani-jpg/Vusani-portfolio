@@ -30,7 +30,7 @@ interface SkillCategory {
 
 export default function Skills() {
 	const [mounted, setMounted] = useState(false);
-	const [activeCategory, setActiveCategory] = useState<number | null>(null);
+	// const [activeCategory, setActiveCategory] = useState<number | null>(null);
 
 	useEffect(() => {
 		setMounted(true);
@@ -147,8 +147,8 @@ export default function Skills() {
 						style={{
 							transitionDelay: mounted ? `${index * 150}ms` : "0ms",
 						}}
-						onMouseEnter={() => setActiveCategory(index)}
-						onMouseLeave={() => setActiveCategory(null)}
+						// onMouseEnter={() => setActiveCategory(index)}
+						// onMouseLeave={() => setActiveCategory(null)}
 					>
 						<div className="flex flex-col h-full">
 							{/* Header */}
