@@ -17,7 +17,7 @@ export default function Projects() {
 		{
 			title: "Portfolio Website",
 			description: "A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations and a clean design.",
-			technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+			technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
 			githubUrl: "https://github.com/Vusani-jpg/Vusani-portfolio",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
