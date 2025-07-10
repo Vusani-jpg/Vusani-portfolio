@@ -72,7 +72,7 @@ export default function About() {
 						<div className="absolute -inset-1 bg-gradient-to-r from-primary via-secondary to-primary rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-gradient"></div>
 						<Image
 							className="relative mx-auto object-cover border-2 border-primary/20 max-w-screen-md rounded-2xl shadow-2xl shadow-gray-900/50 transition-all duration-500 group-hover:scale-105 group-hover:shadow-primary/20"
-							src="/images/Profile.jpg"
+							src="./images/Profile.png"
 							alt="Professional shot of a software engineer"
 							width={400}
 							height={500}
