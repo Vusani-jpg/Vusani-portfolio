@@ -26,9 +26,9 @@ export default function Projects() {
 		{
 			title: "Tic Tac Toe Game",
 			description: "A simple Tic Tac Toe game built with HTML, CSS, and JavaScript. Features a responsive design and a clean interface.",
-			technologies: ["HTML", "JAVASCRIPT","React", "Next.js"],
-			githubUrl: "#",
-			liveUrl: "#",
+			technologies: ["HTML", "JAVASCRIPT","CSS", "VS Code"],
+			githubUrl: "https://github.com/Vusani-jpg/Tic-Tac-Cross-Game",
+			liveUrl: "https://github.com/Vusani-jpg/Tic-Tac-Cross-Game",
 			icon: <Code className="h-6 w-6" />,
 			image: "./images/TIC-TAC.png",
 		},

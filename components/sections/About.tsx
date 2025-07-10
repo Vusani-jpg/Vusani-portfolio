@@ -88,7 +88,7 @@ export default function About() {
 								Passionate Software Engineer
 							</h3>
 							<p className="text-gray-300 leading-relaxed text-lg">
-								I&apos;m a dedicated software engineer with a unique blend of mechanical engineering background and modern software development expertise. My passion lies in creating innovative, user-centric solutions that bridge the gap between complex technical challenges and elegant user experiences.
+								I&apos;m a dedicated software Developer with a unique blend of mechanical engineering background and modern software development expertise. My passion lies in creating innovative, user-centric solutions that bridge the gap between complex technical challenges and elegant user experiences.
 							</p>
 							<p className="text-gray-300 leading-relaxed mt-4">
 								With a strong foundation in both analytical thinking and creative problem-solving, I thrive in collaborative environments where I can contribute to meaningful projects that make a real impact. I&apos;m constantly exploring emerging technologies, particularly in AI and machine learning, to stay at the forefront of innovation.

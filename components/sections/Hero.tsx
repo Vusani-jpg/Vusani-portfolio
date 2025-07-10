@@ -25,7 +25,7 @@ export default function Hero() {
 						VUSANI MATSIGILA
 					</h1>
 					<p className="text-2xl items-end mt-4 mx-auto">
-						Software Developer &bull; Mechanical Engineer
+						Software Developer
 					</p>
 					<div className="pt-4 flex flex-wrap gap-4 justify-center">
 						<Link
