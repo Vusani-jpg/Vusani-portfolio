@@ -35,11 +35,11 @@ export default function Projects() {
 		{
 			title: "Forex Calculator",
 			description: "A currency application that converts different currencies using an external APIs (ExchangeRate-API).",
-			technologies: ["JavaScript", "HTML", "CSS", "ExchangeRate-API"],
+			technologies: ["JavaScript", "HTML", "CSS", "API"],
 			githubUrl: "https://github.com/Vusani-jpg/Forex-calculator",
 			liveUrl: "https://vusani-jpg.github.io/Forex-Calculator/",
 			icon: <Code className="h-6 w-6" />,
-			image: "/images/forex-calc.png",
+			image: "./images/forex-calc.png",
 		},
 		// {
 		// 	title: "Weather Dashboard",
