@@ -21,7 +21,7 @@ export default function Projects() {
 			githubUrl: "https://github.com/Vusani-jpg/Vusani-portfolio",
 			liveUrl: "#",
 			icon: <Code className="h-6 w-6" />,
-			image: "./images/Profile.jpg",
+			image: "/images/Profile.jpg",
 		},
 		{
 			title: "Tic Tac Toe Game",
@@ -30,7 +30,7 @@ export default function Projects() {
 			githubUrl: "https://github.com/Vusani-jpg/Tic-Tac-Cross-Game",
 			liveUrl: "https://github.com/Vusani-jpg/Tic-Tac-Cross-Game",
 			icon: <Code className="h-6 w-6" />,
-			image: "./images/TIC-TAC.png",
+			image: "/images/TIC-TAC.png",
 		},
 		{
 			title: "Forex Calculator",
@@ -39,7 +39,7 @@ export default function Projects() {
 			githubUrl: "https://github.com/Vusani-jpg/Forex-calculator", 
 			liveUrl: "https://github.com/Vusani-jpg/Forex-calculator",
 			icon: <Code className="h-6 w-6" />,
-			image: "./images/forex-calc.png",
+			image: "/images/forex-calc.png",
 		},
 		// {
 		// 	title: "Weather Dashboard",
