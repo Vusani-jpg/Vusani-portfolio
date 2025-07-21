@@ -25,7 +25,7 @@ export default function Certifications() {
 			>
 				<div>
 				
-					<div className="pt-4 flex gap-8 justify-center ">
+					<div className="pt-4 flex-co gap-8 justify-center ">
 						
 					
 							<Image
