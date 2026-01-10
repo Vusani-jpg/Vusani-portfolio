@@ -25,13 +25,14 @@ export default function Certifications() {
 			>
 				<div>
 				
-					<div className="pt-4 flex-co gap-8 justify-center ">
+					<div className="pt-4 flex-co gap-10 justify-center ">
 						
 					
 							<Image
 								className="ml-2 rounded-2xl shadow-xl border-2 border-secondary hover:scale-120 transition-all duration-400"
 								aria-hidden
-						
+								unoptimized
+								
 								src="./images/FNB Full Stack Development certificate.png"
 								alt="FNB Cert"
 								width={400}
@@ -40,7 +41,8 @@ export default function Certifications() {
 							<Image
 								className="ml-2 rounded-2xl shadow-xl border-2 border-secondary hover:scale-110 transition-all duration-400"
 								aria-hidden
-						
+								unoptimized
+								
 								src="./images/HTML BASICS.png"
 								alt="HTML Cert"
 								width={800}

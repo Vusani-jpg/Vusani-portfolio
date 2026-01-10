@@ -45,7 +45,7 @@ export default function Hero() {
 								className="ml-2"
 								aria-hidden
 								color="white"
-								src="./images/file.svg"
+								src="./file.svg"
 								alt="File icon"
 								width={16}
 								height={16}
