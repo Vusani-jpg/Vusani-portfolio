@@ -10,7 +10,7 @@ import Footer from "../../components/sections/Footer";
 
 export default function Home() {
   return (
-    <div className="grid items-center bg-gray-700 justify-items-center min-h-screen gap- sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center bg-gray-700 justify-items-center min-h-screen sm:p-20 font-[family-name:var(--font-geist-sans)]">
       
 
       

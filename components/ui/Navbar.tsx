@@ -25,7 +25,7 @@ export default function Navbar() {
 		<nav
 			className={cn(
 				"fixed top-0 left-0 right-0 z-50 transition-all duration-300  text-white shadow-lg",
-				"backdrop-blur-sm py- px-4",
+				"backdrop-blur-sm px-4",
 			)}
 		>
 			<div className="container mx-auto px-4">
@@ -33,10 +33,14 @@ export default function Navbar() {
 					<Link
 						href="/"
 						onClick={(e) => handleNavClick(e, "#home")}
-						className="flex items-center space-x-3 text-white font-bold hover:scale-110 transition-opacity duration-400"
+						className="flex items-center space-x-3 pt-2 text-white font-bold hover:scale-110 transition-smooth duration-600"
 					>
-						<div className="bg-primary border-b-primary rounded-4xl p-2 hover:shadow-primary hover:shadow-[0_0_15px_rgba()]">
-							VM
+						<div className="bg-primary hover:shadow-primary hover:shadow-[0_0_15px_rgba()]">
+							<img
+								src="images/Nav-profile.jpg"
+								alt="Profile"
+								className="h-12 w-11 object-contain"
+							/>
 						</div>
 						<span className="text-primary text-2xl">Vusani Matsigila</span>
 					</Link>
