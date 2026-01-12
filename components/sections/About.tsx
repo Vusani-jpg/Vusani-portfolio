@@ -16,16 +16,16 @@ export default function About() {
 
 	const quickFacts = [
 		{
-			key: "software-engineer",
+			key: "software-developer",
 			icon: <Code className="h-6 w-6" />,
-			title: "Software Engineering",
+			title: "Software Developer",
 			description: "Passionate about crafting elegant, scalable solutions with cutting-edge technologies",
-			highlight: "Full-Stack Development",
+			highlight: "Software Development",
 		},
 		{
-			key: "software-development",
+			key: "software-engineering",
 			icon: <Briefcase className="h-6 w-6" />,
-			title: "Software Development",
+			title: "Software Engineering",
 			description: "Building responsive, user-centric applications that solve real-world problems",
 			highlight: "Problem Solver",
 		},
@@ -40,7 +40,7 @@ export default function About() {
 			key: "location",
 			icon: <MapPin className="h-6 w-6" />,
 			title: "Johannesburg, Gauteng",
-			description: "South Africa - Ready to work globally and remotely",
+			description: "South Africa - Ready to collaborate globally",
 			highlight: "Global Ready",
 		},
 	];
@@ -71,7 +71,7 @@ export default function About() {
 						<div className="absolute -inset-1 bg-gradient-to-r from-primary via-secondary to-primary rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-gradient"></div>
 						<Image
 							className="relative mx-auto object-cover border-2 border-primary/20 max-w-screen-md rounded-2xl shadow-2xl shadow-gray-900/50 transition-all duration-500 group-hover:scale-105 group-hover:shadow-primary/20"
-							src="./images/Profile.jpg"
+							src="/images/Profile.jpg"
 							alt="Professional shot of a software engineer"
 							width={400}
 							height={500}
